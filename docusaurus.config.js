@@ -102,8 +102,17 @@ const config = {
             position: 'left',
             label: 'Introduction',
           },
-          { to: '/blog', label: 'Changelog', position: 'left' },
-          { to: '/docs/gallery', label: 'Gallery', position: 'left' },
+          {
+            to: '/blog',
+            label: 'Changelog',
+            position: 'left'
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'Gallery',
+            label: 'Gallery',
+          },
           {
             href: 'https://github.com/dlpnd/nvr-wiki',
             label: 'GitHub',
